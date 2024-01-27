@@ -2,7 +2,7 @@ import styles from "../styles/HeaderNav.module.css";
 
 const HeaderNav = () => {
   return (
-    <nav>
+    <nav className={styles.desktopNav}>
       <ul className={styles.listHeaderUpContainer}>
         <li className={styles.itemHeaderUpContainer}>
           <a className={styles.linkNavHeaderUpContainer} href="#">
