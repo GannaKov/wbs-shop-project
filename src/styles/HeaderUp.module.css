@@ -1,3 +1,11 @@
+.desktopNav {
+  display: none;
+}
+@media only screen and (min-width: 1200px) {
+  .desktopNav {
+    display: block;
+  }
+}
 .upHeaderContainer {
   width: 100%;
   padding-right: 1rem;
@@ -12,12 +20,27 @@
     align-items: center;
   }
 }
+.headerBtnWrp {
+  display: none;
+}
+@media only screen and (min-width: 1200px) {
+  .headerBtnWrp {
+    display: block;
+  }
+}
+
 .navBtn__open {
   border: none;
   background-color: transparent;
+  color: rgba(0, 0, 0, 0.9);
 }
 @media only screen and (min-width: 1200px) {
   .navBtn__open {
     display: none;
   }
 }
+
+.navIcon__open {
+  fill: currentColor;
+}
+

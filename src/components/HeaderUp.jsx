@@ -19,9 +19,16 @@ const HeaderUp = () => {
     <>
       <div className={styles.upHeaderContainer}>
         <HeaderLogo />
-        <HeaderNav />
-        {/* <HeaderNavMobile /> */}
-        <Button />
+        <nav className={styles.desktopNav}>
+          <HeaderNav />
+        </nav>
+        <HeaderNavMobile
+          isHidden={isHidden}
+          handleOnOpenBtnClick={handleOnOpenBtnClick}
+        />
+        <div className={styles.headerBtnWrp}>
+          <Button />
+        </div>
         <button className={styles.navBtn__open} onClick={handleOnOpenBtnClick}>
           <GiHamburgerMenu className={styles.navIcon__open} size={30} />
         </button>
