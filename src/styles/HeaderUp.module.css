@@ -32,9 +32,13 @@
 .navBtn__open {
   border: none;
   background-color: transparent;
+  color: rgba(0, 0, 0, 0.9);
 }
 @media only screen and (min-width: 1200px) {
   .navBtn__open {
     display: none;
   }
+}
+.navIcon__open {
+  fill: currentColor;
 }
