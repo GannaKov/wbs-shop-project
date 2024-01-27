@@ -1,7 +1,7 @@
 import { useState } from "react";
-import styles from "../styles/HeaderUpMobile.module.css";
+import { GiHamburgerMenu } from "react-icons/gi";
+import styles from "../styles/HeaderNavMobile.module.css";
 import HeaderLogo from "./HeaderLogo";
-import { RxHamburgerMenu } from "react-icons/rx";
 
 const HeaderUpMobile = () => {
   const [isHidden, setIsHidden] = useState(true);
@@ -17,7 +17,7 @@ const HeaderUpMobile = () => {
       <div className={styles.mobileUpHeaderContainer}>
         <HeaderLogo />
         <button className={styles.navBtn__open} onClick={handleOnOpenBtnClick}>
-          <RxHamburgerMenu className={styles.navIcon__open} size={30} />
+          <GiHamburgerMenu className={styles.navIcon__open} size={30} />
         </button>
       </div>
       <div

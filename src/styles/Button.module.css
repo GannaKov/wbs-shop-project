@@ -1,8 +1,14 @@
 .btnHeaderUpContainer {
-  width: 140px;
-  height: 40px;
-  background-color: rgba(11, 30, 11, 0.912);
-  border: 1px solid rgba(11, 30, 11, 0.912);
-  color: white;
-  outline: 1px solid transparent;
+  display: none;
+}
+@media only screen and (min-width: 1200px) {
+  .btnHeaderUpContainer {
+    display: block;
+    width: 140px;
+    height: 40px;
+    background-color: rgba(11, 30, 11, 0.912);
+    border: 1px solid rgba(11, 30, 11, 0.912);
+    color: white;
+    outline: 1px solid transparent;
+  }
 }
