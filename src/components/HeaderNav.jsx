@@ -4,7 +4,10 @@ const HeaderNav = () => {
   return (
     <ul className={styles.listHeaderUpContainer}>
       <li className={styles.itemHeaderUpContainer}>
-        <a className={styles.linkNavHeaderUpContainer} href="">
+        <a
+          className={`${styles.linkNavHeaderUpContainer} ${styles.currentLink}`}
+          href=""
+        >
           HOME
         </a>
       </li>
