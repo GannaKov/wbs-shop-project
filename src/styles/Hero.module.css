@@ -1,0 +1,8 @@
+.heroContainer {
+    height: 100%;
+}
+
+.heroImg {
+    width: 100%;
+    object-fit: cover;
+}

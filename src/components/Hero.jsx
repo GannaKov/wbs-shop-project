@@ -1,8 +1,9 @@
+import styles from "../styles/Hero.module.css";
 import hero from "../assets/images/imagesRuben/hero.webp";
 const Hero = () => {
   return (
-  <div>
-    <img src={hero} alt="Saloon" />
+  <div className={styles.heroContainer}>
+    <img className={styles.heroImg} src={hero} alt="Saloon" />
     </div>);
   
 };

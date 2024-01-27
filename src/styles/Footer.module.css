@@ -4,7 +4,7 @@
     justify-content: space-around;
     margin-top: 2rem; 
     margin-bottom: 1rem;
-    height: 200px;
+    height: 180px;
 }
 
 .openingH {
@@ -12,6 +12,7 @@
     flex-direction: column;
     gap: 1rem;
     color: rgb(171, 170, 170);
+    font-size: 13px;
 }
 
 .daysW {
@@ -25,6 +26,7 @@
     display: flex;
     flex-direction: column;
     color: rgb(171, 170, 170);
+    width: 25%;
 }
 
 .socialMedia {
@@ -34,20 +36,31 @@
     gap: 1rem;
 }
 
+.tlf {
+    text-decoration: underline;
+    font-size: 14pt;
+    margin-bottom: 10px;
+}
+
 .footer2 {
     margin-left: 2rem;
     display: flex;
     justify-content: space-between;
     flex-direction: column;
+
 }
 
 .info {
     display: flex;
     justify-content: space-between;
-    color: rgb(171, 170, 170);
+    color: rgb(171, 170, 170) !important;
     margin-left: 1rem;
     width: 40%;
     font-size: 11px;
+    margin-bottom: 1rem;
+
 }
 
-
+a {
+    color: rgb(171, 170, 170)
+}

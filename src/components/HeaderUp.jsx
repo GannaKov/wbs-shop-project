@@ -15,7 +15,6 @@ const HeaderUp = () => {
       document.body.classList.toggle("no-scroll");
     }
   };
-
   return (
     <>
       <div className={styles.upHeaderContainer}>
@@ -30,7 +29,6 @@ const HeaderUp = () => {
         <div className={styles.headerBtnWrp}>
           <Button />
         </div>
-
         <button className={styles.navBtn__open} onClick={handleOnOpenBtnClick}>
           <GiHamburgerMenu className={styles.navIcon__open} size={30} />
         </button>

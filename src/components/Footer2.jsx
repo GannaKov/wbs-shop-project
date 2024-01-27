@@ -8,7 +8,7 @@ const Footer2 = () => {
         </div>
         <div className={styles.info}>
             <div>@2021 Mane Ethical Hairdressing</div>
-            <div>Branding + website by <a href="http://www.lumodesignstudio.com" target="_blank">Lumo Design Studio</a></div>
+            <div>Branding + website by <a className={styles.lumo} href="http://www.lumodesignstudio.com" target="_blank">Lumo Design Studio</a></div>
         </div>
 
     </div>);
