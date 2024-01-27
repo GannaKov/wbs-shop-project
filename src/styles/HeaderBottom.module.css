@@ -1,12 +1,15 @@
 .bottomHeaderContainer {
+  display: flex;
+  flex-direction: column;
+  gap: 0.3rem;
   padding-left: 1rem;
   padding-right: 1rem;
 }
 @media only screen and (min-width: 1200px) {
   .bottomHeaderContainer {
     display: flex;
+    flex-direction: row;
     justify-content: space-between;
-    gap: 0.3rem;
   }
 }
 .imgBottomHeaderContainer {
