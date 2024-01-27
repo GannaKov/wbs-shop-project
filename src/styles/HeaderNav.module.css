@@ -1,0 +1,14 @@
+.listHeaderUpContainer {
+  display: flex;
+}
+
+.itemHeaderUpContainer {
+  color: gray;
+}
+
+.itemHeaderUpContainer:not(:last-child) {
+  margin-right: 4rem;
+}
+.linkNavHeaderUpContainer {
+  color: gray;
+}
