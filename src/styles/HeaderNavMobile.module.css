@@ -31,5 +31,8 @@
   right: 1rem;
   border: none;
   background-color: transparent;
+  color: rgba(0, 0, 0, 0.9);
 }
-
+.navBtn__close {
+  fill: currentColor;
+}
