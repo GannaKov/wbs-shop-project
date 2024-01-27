@@ -1,14 +1,23 @@
 .upHeaderContainer {
-  display: none;
+  width: 100%;
+  padding-right: 1rem;
+  padding-left: 1rem;
+  padding-bottom: 2rem;
+  display: flex;
+  justify-content: space-between;
 }
 @media only screen and (min-width: 1200px) {
   .upHeaderContainer {
-    width: 100%;
-    padding-right: 1rem;
-    padding-left: 1rem;
-    padding-bottom: 2rem;
-    display: flex;
     justify-content: space-between;
     align-items: center;
+  }
+}
+.navBtn__open {
+  border: none;
+  background-color: transparent;
+}
+@media only screen and (min-width: 1200px) {
+  .navBtn__open {
+    display: none;
   }
 }

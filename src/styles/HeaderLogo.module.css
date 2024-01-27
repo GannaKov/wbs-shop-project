@@ -1,7 +1,18 @@
 .logoHeaderUpContainer {
-  margin-left: 9rem;
-  margin-right: 4rem;
+  /* margin-left: 9rem; */
+  margin-right: 3rem;
+}
+@media only screen and (min-width: 1200px) {
+  .logoHeaderUpContainer {
+    margin-left: 9rem;
+    margin-right: 4rem;
+  }
 }
 .imgLogoHeaderUpContainer {
-  width: 193px;
+  width: 100px;
+}
+@media only screen and (min-width: 1200px) {
+  .imgLogoHeaderUpContainer {
+    width: 193px;
+  }
 }
