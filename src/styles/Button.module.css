@@ -8,11 +8,16 @@
   border: 1px solid rgba(11, 30, 11, 0.912);
   color: rgba(255, 255, 255, 0.95);
   outline: 1px solid transparent;
-  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.04), 0px 2px 4px rgba(0, 0, 0, 0.08),
+    0px 1px 3px rgba(0, 0, 0, 0.16);
+  transition: background-color 0.8s ease, border-color 0.8s ease;
+
+  /* transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1); */
 }
 
 .btnHeaderUpContainer:is(:hover, :focus) {
   background-color: rgb(27, 134, 27);
   border-color: rgb(27, 134, 27);
-
+  transition: background-color 0.4s ease, border-color 0.4s ease;
+  /* transition: border-color 0.8s ease; */
 }
