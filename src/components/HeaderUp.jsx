@@ -10,7 +10,8 @@ const HeaderUp = () => {
   const [isHidden, setIsHidden] = useState(true);
 
   const handleOnOpenBtnClick = () => {
-    setIsHidden((prev) => (prev ? false : true));
+    // setIsHidden((prev) => (prev ? false : true));
+    setIsHidden((prev) => !prev);
     if (document.body) {
       document.body.classList.toggle("no-scroll");
     }
