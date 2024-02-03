@@ -18,10 +18,10 @@ p {
     padding-bottom: 30px;
 }
 
-.appbtn {
+.appBtn {
     color: rgb(171, 170, 170);
     border-style: solid;
-    width: 18%;
+    width: 180px;
     margin:auto;
     padding: 0.5rem;
     font-size: 10pt;
@@ -29,7 +29,7 @@ p {
     border-width: 1px;
 }
 
-.appbtn:hover {
+.appBtn:hover {
     background-color: green;
     border-color: green;
     color: rgb(255, 255, 255);
@@ -37,3 +37,9 @@ p {
     opacity: 1;
     transition: background-color 0.8s ease;
 }
+
+@media only screen and (min-width: 768px) {
+    .appBtn {
+        width: 18%;
+    }
+  }
