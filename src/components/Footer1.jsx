@@ -32,7 +32,7 @@ const Footer1 = () => {
                 </div>
             </div>
             <div className={styles.contact}>
-                <div class={styles.tlf}><a href="https://www.google.com/search?q=mane+ethical+hair&oq=mane+eth&aqs=chrome.0.69i59l2j69i57j0i22i30j0i10i22i30j0i22i30j0i10i22i30j69i60.5805j0j7&sourceid=chrome&ie=UTF-8" target="_blank" rel="noreferrer">(07) 5659 1905</a></div>
+                <div className={styles.tlf}><a href="https://www.google.com/search?q=mane+ethical+hair&oq=mane+eth&aqs=chrome.0.69i59l2j69i57j0i22i30j0i10i22i30j0i22i30j0i10i22i30j69i60.5805j0j7&sourceid=chrome&ie=UTF-8" target="_blank" rel="noreferrer">(07) 5659 1905</a></div>
                 <div>6 / 5-7 Tallebudgera Creek Road, Burleigh, Queensland</div>
                 <div className={styles.socialMedia}>
                     <a href="https://www.facebook.com/maneethicalhairdressing" target="_blank" rel="noreferrer"><img src={facebook} alt="facebookLogo" /></a>
