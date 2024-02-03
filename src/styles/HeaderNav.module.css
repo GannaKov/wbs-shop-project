@@ -8,15 +8,38 @@
 }
 .listHeaderUpContainer {
   display: flex;
+  flex-direction: column;
+  margin-top: 3rem;
+  justify-content: center;
 }
-
+@media only screen and (min-width: 1200px) {
+  .listHeaderUpContainer {
+    flex-direction: row;
+    margin-top: 0;
+  }
+}
 .itemHeaderUpContainer {
   color: gray;
+  margin-bottom: 2rem;
+}
+@media only screen and (min-width: 1200px) {
+  .itemHeaderUpContainer {
+    margin-bottom: 0;
+  }
 }
 
-.itemHeaderUpContainer:not(:last-child) {
-  margin-right: 4rem;
+@media only screen and (min-width: 1200px) {
+  .itemHeaderUpContainer:not(:last-child) {
+    margin-right: 4rem;
+  }
 }
 .linkNavHeaderUpContainer {
   color: gray;
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+.linkNavHeaderUpContainer:is(:hover, :focus) {
+  color: rgb(27, 134, 27);
+}
+.currentLink {
+  color: rgb(27, 134, 27);
 }

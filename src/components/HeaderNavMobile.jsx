@@ -1,33 +1,30 @@
-import { useState } from "react";
-import { GiHamburgerMenu } from "react-icons/gi";
+/* eslint-disable react/prop-types */
 import styles from "../styles/HeaderNavMobile.module.css";
-import HeaderLogo from "./HeaderLogo";
+import { IoClose } from "react-icons/io5";
+import HeaderNav from "./HeaderNav";
+import Button from "./Button";
 
-const HeaderUpMobile = () => {
-  const [isHidden, setIsHidden] = useState(true);
-
-  const handleOnOpenBtnClick = () => {
-    setIsHidden((prev) => (prev ? false : true));
-    if (document.body) {
-      document.body.classList.toggle("no-scroll");
-    }
-  };
+const HeaderUpMobile = ({ isHidden, handleOnOpenBtnClick }) => {
   return (
-    <>
-      <div className={styles.mobileUpHeaderContainer}>
-        <HeaderLogo />
-        <button className={styles.navBtn__open} onClick={handleOnOpenBtnClick}>
-          <GiHamburgerMenu className={styles.navIcon__open} size={30} />
-        </button>
-      </div>
-      <div
-        className={`${styles.mobileMenuSection} ${
-          isHidden ? styles.isHidden : ""
-        }`}
+    <div
+      className={`${styles.mobileMenuSection} ${
+        isHidden ? styles.isHidden : ""
+      }`}
+    >
+      <button
+        className={styles.navBtn__close}
+        onClick={handleOnOpenBtnClick}
+        type="button"
+        aria-label="Close"
       >
-        I am Mobile
-      </div>
-    </>
+        <IoClose size={25} />
+      </button>
+      <nav>
+        <HeaderNav />
+      </nav>
+
+      <Button />
+    </div>
   );
 };
 

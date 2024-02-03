@@ -6,9 +6,21 @@ import header3 from "../assets/images/imagesAnna/header3.webp";
 export const HeaderBottom = () => {
   return (
     <div className={styles.bottomHeaderContainer}>
-      <img className={styles.imgBottomHeaderContainer} src={header1} alt="" />
-      <img className={styles.imgBottomHeaderContainer} src={header2} alt="" />
-      <img className={styles.imgBottomHeaderContainer} src={header3} alt="" />
+      <img
+        className={styles.imgBottomHeaderContainer}
+        src={header1}
+        alt="Salon"
+      />
+      <img
+        className={styles.imgBottomHeaderContainer}
+        src={header2}
+        alt="Computer"
+      />
+      <img
+        className={styles.imgBottomHeaderContainer}
+        src={header3}
+        alt="Office"
+      />
     </div>
   );
 };

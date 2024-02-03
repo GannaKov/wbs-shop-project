@@ -6,8 +6,12 @@ body {
   font-family: "Roboto";
   letter-spacing: 0.3px;
   margin: 0;
-}
 
+}
+body.no-scroll {
+  overflow: hidden;
+  position: fixed;
+}
 p,
 h1,
 h2,
